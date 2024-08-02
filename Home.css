@@ -1,13 +1,13 @@
 * {
    padding: 0;
    margin: 0;
-   color: white;
+   color: #f0f0f0;
    box-sizing: border-box;
 }
 
 body {
    font-family: Arial, sans-serif;
-   background-color: #1a1a1a;
+   background-color: #121212;
 }
 
 #navbar {
@@ -21,7 +21,7 @@ body {
 
 #navbar h1 {
    color: #f08800;
-   font-size: 24px;
+   font-size: 26px;
 }
 
 #navbar a {
@@ -32,7 +32,8 @@ body {
 }
 
 #navbar a:hover {
-   text-decoration: underline;
+   text-decoration: none;
+   border-bottom: 2px solid #f08800;
 }
 
 div {
@@ -40,12 +41,12 @@ div {
 }
 
 h3 {
-   color: #f08800;
+   color: #ffa500;
    margin-bottom: 10px;
 }
 
 p {
-   color: #cccccc;
+   color: #b0b0b0;
    margin: 10px 0;
 }
 
@@ -53,7 +54,7 @@ button {
    color: #f08800;
    background-color: #333;
    border: 1px solid #f08800;
-   padding: 10px 20px;
+   padding: 12px 24px;
    cursor: pointer;
    transition: background-color 0.3s;
 }
