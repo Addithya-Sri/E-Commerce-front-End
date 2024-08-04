@@ -1,73 +1,23 @@
 * {
-   padding: 0;
    margin: 0;
-   color: #f0f0f0;
-   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   border: border-box;
 }
 
-body {
-   font-family: Arial, sans-serif;
-   background-color: #121212;
-   line-height: 1.6;  /* New property: line height */
-   overflow-x: hidden;  /* New property: prevent horizontal scroll */
-}
-
-#navbar {
-   background-color: #0f1111;
+.navbar {
    height: 60px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 0 20px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* New property: box shadow */
+   background-color: #0f1111;
+   color: white;
 }
 
-#navbar h1 {
-   color: #f08800;
-   font-size: 26px;
-   letter-spacing: 1px;  /* New property: letter spacing */
+.nav-logo {
+   height: 50px;
+   width: 113px;
 }
 
-#navbar a {
-   color: #f08800;
-   text-decoration: none;
-   margin-right: 20px;
-   font-size: 18px;
-   transition: color 0.3s;  /* New property: transition for color */
-}
-
-#navbar a:hover {
-   text-decoration: none;
-   border-bottom: 2px solid #f08800;
-   color: #ffa500;  /* New property: change color on hover */
-}
-
-div {
-   padding: 20px;
-}
-
-h3 {
-   color: #ffa500;
-   margin-bottom: 10px;
-}
-
-p {
-   color: #b0b0b0;
-   margin: 10px 0;
-   font-size: 16px;  /* New property: font size */
-}
-
-button {
-   color: #f08800;
-   background-color: #333;
-   border: 1px solid #f08800;
-   padding: 12px 24px;
-   cursor: pointer;
-   transition: background-color 0.3s;
-   border-radius: 4px;  /* New property: border radius */
-}
-
-button:hover {
-   background-color: #555;
-   transform: scale(1.05);  /* New property: scale on hover */
+.logo {
+   background-image: url(https://www.amazon.com/ref=nav_logo);
+   height: 50px;
+   width: 100px;
+   background-size: cover;
 }
