@@ -1,5 +1,6 @@
 * {
    margin: 0;
+   padding: 0;
    font-family: Arial, Helvetica, sans-serif;
    border: border-box;
    background-color: #0f1111;
@@ -24,4 +25,12 @@
    background-size: cover;
    padding: 10px;
    
+}
+
+.border {
+   border: 1.5px solid transparent;
+}
+
+.border:hover {
+   border: 1.5px solid black;
 }
