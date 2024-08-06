@@ -151,3 +151,30 @@
    font-weight: 700;
    font-size: 0.9rem;
 }
+
+.hero-image {
+   background-image: url(HeroPage.jpg);
+   height: 380px;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.hero-message {
+   background-color: white;
+   color: black;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 0.85re;
+   width: 80%;
+   margin-bottom: 25px;
+   
+}
+
+.hero-message a {
+   color: #007185;
+}
+
