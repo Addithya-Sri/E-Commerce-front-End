@@ -212,3 +212,44 @@
 .box-content p {
    color: #007185;
 }
+
+
+/**Footer-Section**/
+
+footer {
+   margin-top: 20px;
+}
+
+.panel1 {
+   color: white;
+   background-color: #37475a;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 0.85rem;
+   
+}
+
+/**Footer-panel2**/
+
+.panel2 {
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #222f3d;
+   color: white;
+   height: 300px;
+   
+}
+
+ul a {
+   display: block;
+   margin-top: 10px;
+   font-size: 0.85rem;
+   color: #cccccc;
+   
+}
+
+ul {
+   margin-top: 10px;
+}
